@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #e7f4f4;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.register-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.left-section img {
+    width: 600px;
+    height: auto;
+}
+
+.right-section .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flowchart .node {
+    width: 250px;
+    padding: 15px;
+    background-color: #f59394;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    position: relative;
+}
+
+.flowchart .connection {
+    width: 150px;
+    padding: 10px;
+    background-color: #bae7e8;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.flowchart .end-users {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.end-user {
+    background-color: #f3b25e;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 150px;
+}

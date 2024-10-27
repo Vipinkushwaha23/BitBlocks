@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eff7f7;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.register-btn button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.main-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.main-title h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 0 80px;
+}
+
+.service-block {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-block h3 {
+    font-size: 16px;
+    color: #555;
+    font-weight: normal;
+}
+
+.service-block h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.service-block p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.service-block .icon img {
+    height: 30px;
+}
+
+.service-block.special {
+    background-color: #d3f2f5;
+    position: relative;
+    border-radius: 20px;
+}
+
+.get-started-btn button {
+    padding: 10px 20px;
+    background-color: #56c8d2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.get-started-btn button:hover {
+    background-color: #44b0b8;
+}
